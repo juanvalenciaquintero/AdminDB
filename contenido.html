@@ -1,0 +1,23 @@
+<div>
+	<?php
+
+
+	$sql = 'SHOW FULL TABLES FROM u900374754_prueb;';
+	$resultado=mysqli_query($conexion,$sql);
+
+	while($fila = mysqli_fetch_array($resultado)) {
+
+		echo '<a href="#">' . $fila["Tables_in_u900374754_prueb"]  .   '</a><br>';
+
+	}
+				
+
+	    	
+?>
+</div>
+
+
+<!-- <?php	$sql = 'SHOW FULL TABLES FROM 0374754_prueb;'; $resultado=mysqli_query($conexion,$sql);	while($fila = mysqli_fetch_array($resultado)) { echo '<a href="#">' . $fila["Tables_in_u900374754_prueb"]  .   '</a><br>';} ?>' -->
+
+'Hola <?php $sql="SHOW FULL TABLES FROM u900374754_prueb;"; $resultado=mysqli_query($conexion,$sql);while($fila = mysqli_fetch_array($resultado)) {';
+	contenidoDiv = contenidoDiv + ' echo "<a href='#'>" . $fila["Tables_in_u900374754_prueb"]  . "</a><br>";} ?>';

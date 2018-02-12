@@ -1,0 +1,10 @@
+<?xml version='1.2' encoding='utf-8'?>
+<widget id="com.valencia.admindb" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="">
+    <name>AdminDB</name>
+    <description>Administra tu BD</description>
+    <author email="juannuffin@hotmail.com" href="#">
+        Juan Valencia  </author>
+    <content src="index.html" />
+    <access origin="*" />
+    
+</widget>

@@ -1,0 +1,91 @@
+body {
+        		font-family: Verdana, sans-serif;
+        	}
+        	#cabecera{
+        		width:100%;
+        		height:50px;
+        		border:1px solid;
+        		margin-bottom:5px;
+        	}
+
+        	#cuerpoPrincipal {
+        		width:100%;
+        		height:650px;
+        		border:1px solid;
+        		display:flex;
+        		justify-content: center;
+        		align-items: flex-start;
+        	}
+
+			#tablas {
+				width:250px;
+				height:600px;
+				border:1px solid;
+				padding:10px;
+			}
+			#cuerpoSecundario {
+				width:100%;
+				height:600px;
+				border:1px solid;
+				padding:10px;
+				display:flex;
+				flex-direction: column;
+        		justify-content: flex-start;
+        		align-items: flex-start;
+        		overflow: scroll;
+			}
+
+			h2 {
+				text-align: center;
+			}
+
+			.resultado {
+				border:none;
+				
+				height:20px;
+				
+
+			}
+
+			.resultado div {
+				
+				display:flex;
+				justify-content: flex-start;
+				align-items: center;
+				border-bottom: 1px solid;
+
+			}
+
+			#cuerpoSecundario>div:first-child {
+				
+				height:30px;
+				background-color: black;
+				color:white;
+				font-weight:bold;
+				display:flex;
+				justify-content: flex-start;
+				align-items: center;
+			}
+
+			#cuerpoSecundario>div:first-child span{
+				display:block;
+				width:120px;
+				border-right:1px solid white;
+				font-size:0.7em;
+				display:flex;
+				justify-content: flex-start;
+				align-items: center;
+				padding-left:5px;
+				padding-right:20px;
+			}
+
+			#cuerpoSecundario div:first-child span:last-child {
+				border:none;
+			}
+
+			.resultado span{
+				display:block;
+				width:120px;
+				padding-left:5px;
+				padding-right:20px;
+			}
